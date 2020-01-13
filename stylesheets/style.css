@@ -1,0 +1,83 @@
+.ui.parallax-one {
+	background-image: url(../images/background_01.jpg);
+	height: 100vh;
+}
+
+.ui.parallax-two {
+	background-image: url(../images/background_02.jpg);
+	height: 600px;
+}
+
+ui.parallax-three {
+	background-image: url(../images/background_03.jpg);
+}
+
+.ui.parallax {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+.ui.fluid.parallax {
+	width: 100%;
+}
+
+#nav-forbig {
+	margin-top: 0;
+	margin-bottom: 0;
+	height: min-content;
+}
+
+#nav-formobile {
+	display: none;
+}
+
+#wtvr-logo-forbig,
+#wtvr-logo-formobile {
+	width: 120px;
+}
+
+.ui.huge.button {
+	background-color: white;
+	color: #555;
+	box-shadow: none;
+}
+
+#click-here:hover {
+	opacity: 0.4;
+}
+
+.ui.cards {
+	margin: 2em auto;
+}
+
+@media only screen and (max-width: 700px) {
+	#nav-forbig {
+		display: none !important;
+	}
+
+	#nav-formobile {
+		display: block;
+		margin-top: 0;
+		margin-bottom: 0;
+		height: min-content;
+	}
+
+	#nav-toggle {
+		background-color: white;
+		color: black;
+	}
+
+	.ui.parallax-two {
+		background-size: 240%;
+		background-position-y: center;
+		height: 224px;
+	}
+}
