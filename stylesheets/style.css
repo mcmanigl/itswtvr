@@ -96,15 +96,14 @@ h3 {
 header {
 	display: flex;
 	justify-content: center;
-	padding: 1em;
+	padding: .8em 1em;
 	position: fixed;
 	background-color: var(--clr-light);
 	width: 100vw;
 }
 
-.logo {
-	max-width: 100px;
-	z-index: 101;
+.nav__link img {
+	max-width: 90px;
 }
 
 .nav {
@@ -216,3 +215,26 @@ header {
 }
 
 /* cards section */
+.link-cards {
+}
+
+.card {
+	width: 90vw;
+	text-align: center;
+}
+
+.card::after {
+	content: '';
+	display: block;
+	width: 70%;
+	height: 1px;
+	margin: 3em auto;
+	background: var(--clr-accent);
+	opacity: 30%;
+}
+
+.card__img {
+	max-height: 500px;
+	height: 80%;
+	width: auto;
+}
