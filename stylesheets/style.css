@@ -218,6 +218,9 @@ header {
 .link-cards {
 }
 
+.cards {
+}
+
 .card {
 	width: 90vw;
 	text-align: center;
@@ -228,7 +231,7 @@ header {
 	display: block;
 	width: 70%;
 	height: 1px;
-	margin: 3em auto;
+	margin: 3em auto 0;
 	background: var(--clr-accent);
 	opacity: 30%;
 }
@@ -237,4 +240,22 @@ header {
 	max-height: 500px;
 	height: 80%;
 	width: auto;
+}
+
+/* wanna create with us splash */
+.contact-intro {
+	background-color: var(--clr-accent);
+	background-image: url(../images/background_02.jpg);
+	background-size: 240%;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	margin-bottom: 0;
+	color: var(--clr-light);
+}
+
+.contact-intro__btn {
+	background-color: transparent;
+  border-color: var(--clr-light);
+  color: var(--clr-light);
 }
