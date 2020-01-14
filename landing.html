@@ -13,7 +13,7 @@
 <body>
   <header>
     <div class="logo">
-      <img src="images/wtvr_logo_black.png" width="100" alt="">
+      <a href="#home" class="nav__link"><img src="images/wtvr_logo_black.png" width="100" alt=""></a>
     </div>
     <button class="nav-toggle" aria-label="toggle navigation">
       <span class="hamburger"></span>
@@ -28,12 +28,12 @@
     </nav>
   </header>
 
-  <!-- parallax splash;  -->
+  <!-- parallax splash intro  -->
   <article id="home"  class="intro">
     <h1 class="article__title article__title--intro">
       INSTANT ACCESS TO EVERY ISSUE
     </h1>
-    <a href="https://patreon.com/itswtvr" class="btn">CLICK HERE</a>
+    <a href="https://patreon.com/itswtvr" class="btn intro__btn">CLICK HERE</a>
   </article>
 
   <!-- print cover and merch cards -->
@@ -81,7 +81,7 @@
       <input type="text" name="subject">
       <p>Message</p>
       <textarea name="message" id="" rows="4"></textarea>
-      <input type="submit" value="SUBMIT">
+      <input class="btn contact-form__btn" type="submit" value="SUBMIT">
     </form>
   </article>
 
@@ -147,5 +147,7 @@
     </ul>
     <p>COPYRIGHT <span class="far fa-copyright"></span> 2019 WTVR LLC. ALL RIGHTS RESERVED.</p>
   </footer>
+
+  <script src="scripts/nav-sidebar.js"></script>
 </body>
 </html>
